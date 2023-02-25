@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color:white; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 450px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+
+.right div a{
+    margin-left:52px;
+    cursor:pointer;
+}
+
+section{
+    margin-top:25px;
+}
+
