@@ -42,6 +42,11 @@ function cheakValidation(e) {
         arr.push(obj);
         // console.log(arr)
          localStorage.setItem("data",JSON.stringify(arr));
+
+         email.value="";
+         password.value="";
+         name.value="";
+         cPassword.value="";
         //  window.location.href="login.html";
     }
 }
