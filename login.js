@@ -46,7 +46,7 @@ function loginCheak(e) {
                 //creating the localStorage of the currentUser.
                 localStorage.setItem("currentUser", JSON.stringify(obj));
 
-                window.location.href = "dashboard.html";
+                window.location.href = "../dashboard.html";
 
 
             }
